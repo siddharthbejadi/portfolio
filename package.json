@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && cp -r ./.next functions/",
-    "start": "next dev",
+  "dev": "next dev",
+  "build": "next build && cp -r ./.next functions/",
+  "pages:build": "npm run build",
+  "start": "next dev",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "deploy": "npm run build && firebase deploy --only hosting,functions"
