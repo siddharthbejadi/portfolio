@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
   "dev": "next dev",
-  "build": "next build && next export && node -e \"const fs=require('fs'); const src='out'; const dest='.vercel/output/static'; if (!fs.existsSync(src)) { console.error('Error: next export did not produce an out/ folder'); process.exit(1); } if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true }); fs.cpSync(src, dest, { recursive: true });\"",
+  "build": "next build",
   "pages:build": "npm run build",
   "start": "next dev",
     "lint": "next lint",

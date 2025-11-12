@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Export static HTML for all pages so Pages can deploy static output
+  output: 'export',
   reactStrictMode: true,
 
   experimental: {
