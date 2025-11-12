@@ -5,12 +5,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   reactStrictMode: true,
 
-  experimental: {
-    serverActions: {
-      bodySizeLimit: "2mb",
-      allowedOrigins: ["*"],
-    },
-  },
+  // Server Actions are disabled to allow static export (output: 'export')
   
   images: {
     remotePatterns: [
