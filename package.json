@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
   "dev": "next dev",
-  "build": "next build && cp -r ./.next functions/",
+  "build": "next build && next export",
   "pages:build": "npm run build",
   "start": "next dev",
     "lint": "next lint",
