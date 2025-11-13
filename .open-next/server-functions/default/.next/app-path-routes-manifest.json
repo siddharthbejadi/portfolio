@@ -1,0 +1,8 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/generate-tailored-about-me/route": "/api/generate-tailored-about-me",
+  "/api/submit-contact/route": "/api/submit-contact",
+  "/favicon.ico/route": "/favicon.ico",
+  "/admin/page": "/admin",
+  "/page": "/"
+}

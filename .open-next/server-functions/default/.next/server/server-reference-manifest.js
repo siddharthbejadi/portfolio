@@ -1,0 +1,1 @@
+self.__RSC_SERVER_MANIFEST="{\"node\":{\"40a82d674c26642ea9d37fa7eb47b71c72be91f5d4\":{\"workers\":{\"app/api/generate-tailored-about-me/route\":{\"moduleId\":\"96486\",\"async\":false}},\"layer\":{\"app/api/generate-tailored-about-me/route\":\"rsc\"}}},\"edge\":{},\"encryptionKey\":\"process.env.NEXT_SERVER_ACTIONS_ENCRYPTION_KEY\"}"

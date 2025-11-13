@@ -1,0 +1,14 @@
+name = "portfolio"
+compatibility_date = "2025-11-12"
+compatibility_flags = ["nodejs_compat"]
+main = ".open-next/worker.js"
+
+[build]
+command = "npx opennextjs-cloudflare build"
+[site]
+bucket = ".open-next/assets"
+
+[[r2_buckets]]
+binding = "NEXT_INC_CACHE_R2_BUCKET"
+bucket_name = "portfolio-cache"       # <-- the bucket you just created
+preview_bucket_name = "portfolio-cache"  # optional, can be same as bucket_name
