@@ -46,3 +46,4 @@ ui-debug.*.log
 functions/node_modules
 functions/.next
 functions/lib
+functions/ 
